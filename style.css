@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.form{
+    height: 600px;
+    width: 500px;
+    margin: auto;
+}
+.info h1{
+    font-size: 23px;
+    padding: 13px 0 0 30px;
+    word-spacing: 1.3px;
+}
+.info p{
+    font-size: 17px;
+    color: rgb(136, 141, 153);
+    padding: 7px 0 0 30px;
+    line-height: 27px;
+    word-spacing: 1.3px;
+}
+
+.option p{
+    font-size: 16px;
+    font-weight:bold;
+    color: rgb(120, 128, 140);
+    padding: 25px 0 0 30px;
+    line-height: 27px;
+    word-spacing: 1.3px;
+}
+.option .buttons{
+    display: flex;
+}
+.option button{
+    height: 60px;
+    width: 170px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    margin: 7px 0 0 30px;
+}
+.option .buttons .designs{
+    border: 2px solid rgb(223, 227, 242);
+    display: flex;
+}
+.option .buttons .designs img{
+    height: 40px;
+    padding: 15px 0 0 30px;
+}
+.option .designs span{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(120, 128, 140);
+    padding: 20px 0 0 15px;
+}
+.option .buttons .projects{
+    border: 2px solid rgb(51,86,246);
+    display: flex;
+}
+.option .buttons .projects img{
+    height: 40px;
+    padding: 15px 0 0 30px;
+}
+.option .projects span{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(5 128 215);
+    padding: 20px 0 0 15px;
+}
+.inputs .heading{
+    font-size: 16px;
+    font-weight:bold;
+    color: #8d8c8c;
+    padding: 20px 0 0 30px;
+    line-height: 27px;
+    word-spacing: 1.3px;
+}
+.inputs button{
+    height: 50px;
+    width: 375px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    margin: 5px 0 0 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #696565;
+}
+.inputs .same-btn{
+    text-align: left;
+    padding-left: 20px;
+    border: 1.3px solid rgb(223, 227, 242);
+}
+
+.inputs .phn-btn{
+    padding-left: 20px;
+    border: 2px solid rgb(51,86,246);
+    display: flex;
+}
+.inputs .phn-btn h1{
+    font-size: 17px;
+    padding-top: 13px;
+    display: flex;
+}
+.inputs .phn-btn img{
+    height: 20px;
+    width: 27px;
+    margin: 13px 20px 0 0;
+}
+.inputs .next_step-btn{
+    height: 55px;
+    margin-top: 30px;
+    background-color: rgb(57,96,246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs .next_step-btn h1{
+    color: #fff;
+    font-size: 17px;
+}
+.inputs .next_step-btn img{
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+}
